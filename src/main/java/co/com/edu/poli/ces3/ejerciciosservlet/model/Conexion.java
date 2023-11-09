@@ -1,5 +1,6 @@
 package co.com.edu.poli.ces3.ejerciciosservlet.model;
-
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.Connection;
 
 public abstract class Conexion {
